@@ -89,7 +89,7 @@ class PhotoGallery extends Component {
 
             return (
                 <div className="container" >
-                    <div className="">
+                    <div style={{ marginTop: "80px" }}>
                         <CardColumns>
                             {photo}
                         </CardColumns>

@@ -8,7 +8,7 @@ class Single extends Component {
     render() {
         //console.log(this.props);
         return (
-            <div style={{ float: "left" }} className="my-2">
+            <div style={{ float: "left" }}>
                 <Card className="m-2" >
                     <CardBody className="">
                         <CardImg
