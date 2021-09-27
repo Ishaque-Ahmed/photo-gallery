@@ -1,0 +1,13 @@
+export const LOAD_PHOTOS = 'LOAD_PHOTOS';
+export const PHOTOS_LOADING = 'PHOTOS_LOADING';
+export const PHOTOS_FAILED = 'PHOTOS_FAILED';
+
+export const ADD_FEEDBACK = 'ADD_FEEDBACK';
+
+export const FEEDBACK_LOADING = 'FEEDBACK_LOADING';
+export const LOAD_FEEDBACK = 'LOAD_FEEDBACK';
+
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAILED = 'AUTH_FAILED';
+export const AUTH_LOADING = 'AUTH_LOADING';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
