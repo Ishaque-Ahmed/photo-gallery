@@ -59,7 +59,8 @@ class PhotoGallery extends Component {
             );
         } else if (this.props.errMsg !== null) {
             return (
-                <Alert color="danger">{this.props.errMsg}, Make Sure The JSON SERVER IS ON
+                <Alert color="danger" style={{ marginTop: "80px" }}>
+                    {this.props.errMsg}, Make Sure The JSON SERVER IS ON
                 </Alert>
             );
         } else {
