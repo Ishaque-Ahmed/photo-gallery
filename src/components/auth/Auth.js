@@ -29,7 +29,7 @@ class Auth extends Component {
     render() {
         let error = null;
         if (this.props.authFailedMsg !== null) {
-            error = <Alert color="danger">{this.props.authFailedMsg}</Alert>
+            error = <Alert color="danger" style={{ marginTop: "80px" }}>{this.props.authFailedMsg}</Alert>
         }
         let form = null;
         if (this.props.authLoading) {
@@ -98,7 +98,7 @@ class Auth extends Component {
                                         onChange={handleChange} />
                                     <span className="text-danger">{errors.password}</span><br />
                                     {this.state.mode === "Sign Up" ? (<div>
-                                        <input name="passwordConfirm"
+                                        <input name="passwordConfirm" type="password"
                                             placeholder="Confirm Password"
                                             className="form-control"
                                             value={values.passwordConfirm}
@@ -118,7 +118,7 @@ class Auth extends Component {
             )
         }
         return (
-            <div className="container mt-2">
+            <div className="container" style={{ marginTop: "80px" }}>
                 {error}
                 {form}
             </div>
